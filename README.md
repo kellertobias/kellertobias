@@ -4,23 +4,29 @@ Hey there. I am Tobias S. Keller and am developing software since 2008. Back the
 ### Most relevant repositories and projects
 
 - [**blink.it**](https://www.blink.it), a Learning Management System, which is also a authoring tool  
-  (I am working there as lead software architect - by the way: we are hiring https://www.blink.it/jobs)
+  (I am working there as lead software architect - by the way: we are hiring https://www.blink.it/jobs)  
+  ![](/status-external.png)
 - [**Rekordbox to Apple Music**](https://github.com/kellertobias/rekordbox-to-music-playlists):  
   A tool for DeeJays working with Rekordbox on the Mac to transfer their Playlists back from Rekordbox to Apple Music  
-  (Status: Beta - UI and Production Builds Missing)
+  (Status: Beta - UI and Production Builds Missing)  
+  ![](/status-beta.png)
 - [**ArtNET to OBS**](https://github.com/kellertobias/artnet-to-obs):  
   Use OBS as a Media-Server for Playing Videos, Images and Music on a Screen, Projector, etc. on a Stage, controlled by your Lighting desk  
-  (Status: Alpha)
+  (Status: Alpha)  
+  ![](/status-wip.png)
 - [**ToskStudio**](https://github.com/kellertobias/tosk-studio):  
   Control Suite for Blackmagic ATEM Mixers and OBS for Video Streaming including Tallies, Text Generators and the required hardware
-  (Status: Beta)
+  (Status: Beta)  
+  ![](/status-wip.png)
 - [**KUVO-Proxy**](https://github.com/kellertobias/kuvo-proxy):  
   Get your Playing Tracks out of your Rekordbox in Performance mode in real-time. Implements a catchall proxy that translates he calls from rekordbox to KUVO to a realtime webpage for embedding into video-streams or doing other stuff with it  
-  (Status: Production)
+  (Status: Production)  
+  ![](/status-released.png)
 
 - [**ToskLight**](https://github.com/kellertobias/tosklight)  (PRIVATE PROJECT)  
   a Lighting Control Software similar to MA's GrandMA 2/ Dot2, meant for smaller clubs or theatres  
-  at the moment, this project is not jet public as it only contains as simple Proof-Of-Concept
+  at the moment, this project is not jet public as it only contains as simple Proof-Of-Concept  
+  ![](/status-wip.png)
 
 ### Skills and used Technologies
 
