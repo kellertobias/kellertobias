@@ -17,13 +17,19 @@ Hey there. I am Tobias S. Keller and am developing software since 2008. Back the
 
 ### Skills and used Technologies
 
-- ![](/tech-ts.png) TypeScript: Configuring the Compiler, Writing Typed software in TypeScript, Generics, etc.
-- ![](/tech-node.png) node.js: Writing Software in NodeJS (Started back in 2015 on top of meteor.js, written core-monkey-patches, newer projects since 2018 without meteor) 
-- ![](/tech-react.png) react.js: started back when it was common to write class style components, now writing hooks, HOCs and Functional Components in TSX
-- ![](/tech-aws.png) Amazon AWS: using for main job, regularly using CloudFormation/ CDK, Docker/Fargate, Loadbalancing, S3, CloudWatch, now also API Gateway and AppSync
-- ![](/tech-mongo.png) MongoDB: Using in Combination with meteor since 2015
+- ![](/tech-ts.png)  
+  TypeScript: Configuring the Compiler, Writing Typed software in TypeScript, Generics, etc.
+- ![](/tech-node.png)  
+  node.js: Writing Software in NodeJS (Started back in 2015 on top of meteor.js, written core-monkey-patches, newer projects since 2018 without meteor) 
+- ![](/tech-react.png)  
+  react.js: started back when it was common to write class style components, now writing hooks, HOCs and Functional Components in TSX
+- ![](/tech-aws.png)  
+  Amazon AWS: using for main job, regularly using CloudFormation/ CDK, Docker/Fargate, Loadbalancing, S3, CloudWatch, now also API Gateway and AppSync
+- ![](/tech-mongo.png)  
+  MongoDB: Using in Combination with meteor since 2015
 - coffeescript (used for former projects, since 2018 gradually replaced with typescript)
-- less developed skills: webpack, jest, electron (can use these technologies, using them sometimes, but still struggeling here and there)
+- less developed skills:  
+  webpack, jest, electron (can use these technologies, using them sometimes, but still struggeling here and there)
 
 ### Further Interests
 
