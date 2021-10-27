@@ -18,7 +18,7 @@ Hey there. I am Tobias S. Keller and am developing software since 2008. Back the
   Get your Playing Tracks out of your Rekordbox in Performance mode in real-time. Implements a catchall proxy that translates he calls from rekordbox to KUVO to a realtime webpage for embedding into video-streams or doing other stuff with it  
   (Status: Production)
 
-- [**ToskLight**](https://github.com/kellertobias/tosklight)  (PRIVATE PROJECT)
+- [**ToskLight**](https://github.com/kellertobias/tosklight)  (PRIVATE PROJECT)  
   a Lighting Control Software similar to MA's GrandMA 2/ Dot2, meant for smaller clubs or theatres  
   at the moment, this project is not jet public as it only contains as simple Proof-Of-Concept
 
