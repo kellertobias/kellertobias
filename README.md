@@ -1,5 +1,7 @@
 ## Developing Software since 2008
-Hey there. I am Tobias S. Keller and am developing software since 2008. Back then smaller projects in PHP, now bigger and more reliable stuff, mainly in node.js. For smaller side-projects I sometimes also use python or c (for arduino/ esp8266 development).
+Hey there. I am Tobias S. Keller and am developing software since 2008. Back then smaller projects in PHP, now bigger and more reliable stuff, mainly in node.js. For smaller side-projects I sometimes also use python or c/c++ (for arduino/ esp8266 development).
+
+
 
 ### Most relevant repositories and projects
 
@@ -32,10 +34,16 @@ Hey there. I am Tobias S. Keller and am developing software since 2008. Back the
 
 ### Further Interests
 
-as you probably see in the software projects, I am developing, I am interested in musical and theatrical arts and event technology, such as music production, deejaying, designing lightshows and streaming productions.
+as you probably see in the software projects I am developing, I am interested in musical and theatrical arts and event technology, such as music production, deejaying, designing lightshows and streaming productions.
 
 ### My Principles:
 
 I try to start a new project at least every month and invest at least 2-3 Hours in it. Always trying new ideas or new technologies, let it be some framework or a new hobby. If it sounds promising, I'll keep working on it, if not I'll ditch it. Projects that came from this Principle: KUVO-Proxy, ToskLight, Rekbordboy-To-Music as well as many other unnamed projects. I started this habit in Spring 2020. 
+
+### Past projects
+
+- wordpress plugin for the TU Darmstadt theatre club to manage their productions and team members https://www.tud-schauspielstudio.de/technik/
+- software written in meteorjs with a custom connector to MySQL and LDAP for user management of the abovementioned theatre club
+- bachelors project: creation of worksheets for math classes (web based application that uses latex in the backend to generate the sheets as PDF)
 
 <!-- https://raster.shields.io/static/v1.png?message=webpack%205&label=&style=flat-square&color=333&logo=webpack || https://www.tablesgenerator.com/markdown_tables -->
