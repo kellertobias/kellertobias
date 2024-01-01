@@ -21,6 +21,18 @@ Hey there. I am Tobias S. Keller and am developing software since 2008. Back   t
 | 2014 till August 2023 | blink.it | a Learning Management System, which is also an authoring tool   have been working there as lead software engineer, developing the         backend and frontend as well as the infrastructure of the platform |
 
 
+I regularly write new software for my own projects, such as tools or   automations to simplify my daily life, or to help me or friends with my job or   hobbies. Most of these projects will never make it on the list above as they   are not matured enough to be published, or are too specific to be useful for   others. Some examples include:
+
+- Some smart home automations in nodejs, e.g. a tool that fetches calendar     entries from my calendar and sends them to my smart home system
+
+- a hardware controller to control the lighting and sound sources in an event     venue
+
+- A LaTeX class for formatting the[book](https://www.tobisk.de/deadline), I've written or my CV
+
+- THIS tool (A tool that generates my GitHub Readme based on an HTML file)
+
+
+
 ### Skills and used Technologies
 
 | Technology                                                           | Comment                                                                                                                                                                                                                                                                                                             |
