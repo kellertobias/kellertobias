@@ -31,10 +31,11 @@ I regularly write new software for my own projects, such as tools or   automatio
 
 ### Companies I worked for
 
-| When                  | Company  | Projects & Technologies                                                                                                                                                                                      |
-|:----------------------|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| From August 2023      | IU Group | working as Senior Software Engineer on EPOS (University Management         System)   NestJS, Domain Driven Design, Kafka, SQL (Maxwell-CDC)                                                                  |
-| 2014 till August 2023 | blink.it | a Learning Management System, which is also an authoring tool   have been working there as lead software engineer, developing the         backend and frontend as well as the infrastructure of the platform |
+| When                  | Company  | Projects & Technologies                                                                                                                                                                                          |
+|:----------------------|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| From January 2025     | IU Group | working as Staff Software Engineer on EPOS (University Management         System)   Writing and Proof-Reading TDDs, Consulting multiple Teams on good Software Architecture, developing company wide Frameworks  |
+| From August 2023      | IU Group | working as Senior Software Engineer on EPOS (University Management         System)   NestJS, Domain Driven Design, Kafka, SQL (Maxwell-CDC)                                                                      |
+| 2014 till August 2023 | blink.it | a Learning Management System, which is also an authoring tool   have been working there as lead software engineer, developing the         backend and frontend as well as the infrastructure of the platform     |
 
 
 I am also freelancing besides my main job since 2011 (with a few years gap in   between)
