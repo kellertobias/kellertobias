@@ -163,10 +163,13 @@ export class HtmlToMarkdown {
           break;
 
         case child.rawTagName === "img":
-          // If the child is a heading, append the text to the markdown string
-          markdown += `![${
-            child.getAttribute("alt") || ""
-          }](${child.getAttribute("src")}) `;
+          if (child.getAttribute("width")) {
+            markdown += `<img src="${child.getAttribute("src")}" width="${child.getAttribute("width")}" />`;
+          } else {
+            markdown += `![${
+              child.getAttribute("alt") || ""
+            }](${child.getAttribute("src")}) `;
+          }
           break;
         case child.rawTagName === "tags":
           for (const tag of child.childNodes as HTMLElement[]) {
