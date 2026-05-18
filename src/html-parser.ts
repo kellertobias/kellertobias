@@ -99,13 +99,15 @@ export class HtmlToMarkdown {
         case child.nodeType === NodeType.COMMENT_NODE:
           break;
         case child.rawTagName === "br":
-          // If the child is a paragraph, append the text to the markdown string
-          markdown += "   ";
+          if (insideTable) {
+            markdown += "<br>";
+          } else {
+            markdown += "\n";
+          }
           break;
         case child.rawTagName === "hr":
           markdown += "\n\n---\n\n";
-        case child.rawTagName === "br":
-          markdown += "\n";
+          break;
         case child.rawTagName === "b":
         case child.rawTagName === "strong":
           markdown += `**${this.handleSubtree(child, insideTable)}**`;
