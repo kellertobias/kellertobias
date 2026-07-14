@@ -17,6 +17,8 @@
   <tag name="tech-mongo" text="MongoDB" icon="mongodb" />
   <tag name="tech-arduino" text="Arduino" icon="arduino" />
   <tag name="tech-swift" text="Swift" icon="swift" />
+  <tag name="tech-rust" text="Rust" icon="rust" />
+  <tag name="tech-docker" text="Docker" icon="docker" />
 </tags>
 <h2>Developing Software since 2008</h2>
 <p>
@@ -29,7 +31,93 @@
   python or c/c++ (for arduino/ esp8266 development).
 </p>
 
-<h3>Most relevant (public) repositories and projects</h3>
+<h3>Recent applications</h3>
+<p>
+  These are the applications I am actively building and evolving right now.
+  They are open source or source available, self-hostable where applicable,
+  and built to solve real problems from my own work and infrastructure.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>Status & Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/kellertobias/tobisk-nasfiles">NASFiles</a>
+      </td>
+      <td>
+        A small, fast web file manager for home servers and small businesses.
+        It keeps the filesystem as the source of truth while adding cloud-like
+        previews, sharing, uploads, virtual SFTP, an S3-compatible API and
+        secure local or OIDC authentication.<br />
+        <em>Vibe-coded around a real infrastructure need, then repeatedly security-audited and hardened.</em><br />
+        <br /><img src="https://raw.githubusercontent.com/kellertobias/tobisk-nasfiles/main/docs/assets/screenshots/main-app.png" width="400" alt="NASFiles file manager" />
+      </td>
+      <td>
+        <tech-rust /><br />
+        <tech-ts /><br />
+        <tech-react /><br />
+        <tech-docker /><br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/kellertobias/obsidisync">ObsidiSync</a>
+      </td>
+      <td>
+        An Obsidian plugin for iOS, iPadOS and macOS plus a low-footprint Rust
+        server that performs Git commits, rebases, pushes, conflict handling
+        and file-history lookups without requiring Git on the device.<br />
+        <em>AI-assisted engineering with hands-on architecture, testing and operational hardening.</em>
+      </td>
+      <td>
+        <tech-rust /><br />
+        <tech-ts /><br />
+        <tech-docker /><br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/kellertobias/dbosk">dbosk</a>
+      </td>
+      <td>
+        A native macOS database client for PostgreSQL, MySQL/MariaDB, MongoDB
+        and SQLite. It supports streaming and cancellable queries, saved
+        queries, CSV/JSON export, SSH tunnels and credential loading through
+        shell scripts or AWS Secrets Manager.<br />
+        <em>AI-built with human-led product direction, architecture and validation.</em><br />
+        <br /><img src="https://raw.githubusercontent.com/kellertobias/dbosk/main/docs/sql-table.png" width="400" alt="dbosk native macOS database client" />
+      </td>
+      <td>
+        <tech-swift /><br />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/kellertobias/confluence-toolbelt">Confluence Toolbelt</a>
+      </td>
+      <td>
+        Download Confluence pages as Markdown, edit them locally with Cursor,
+        another AI agent or Obsidian, and upload or three-way-sync the result
+        while preserving comments, mentions and collaborative changes.
+        Available as an npm package and an Obsidian plugin.<br />
+        <em>Vibe-coded to solve a concrete documentation workflow.</em><br />
+        <br /><img src="https://raw.githubusercontent.com/kellertobias/confluence-toolbelt/main/.docs/header.png" width="400" alt="Confluence Toolbelt Header" />
+      </td>
+      <td>
+        <tech-ts /><br />
+        <tech-node /><br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Established projects</h3>
 <table>
   <thead>
     <tr>
@@ -44,8 +132,9 @@
         <a href="https://servobill.de">ServoBill</a>
       </td>
       <td>
-        An Open Source, Serverless, Invoicing System for small businesses<br />Started
-        in 2023<br />
+        An open-source invoicing and expense platform for freelancers and small
+        businesses. It supports PDF, ZUGFeRD and XRechnung invoices, AI-assisted
+        expense import, reports, and both AWS serverless and Docker deployments.<br />
         <br /><img src="https://raw.githubusercontent.com/kellertobias/servobill/main/docs/github-header.png" width="400" alt="ServoBill Header" />
       </td>
       <td>
@@ -59,37 +148,12 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/kellertobias/confluence-toolbelt">confluence-toolbelt</a>
+        <a href="https://github.com/kellertobias/pcbs-framework">PCBS Framework</a>
       </td>
       <td>
-        This repository contains the required tools to download Confluence pages as markdown files, let Cursor or other AI agents edit the pages, and then upload the changes back to Confluence including preserving (most) comments and mentions. - available as npm package.<br />
-        <em>Mostly developed with AI.</em><br />
-        <br /><img src="https://raw.githubusercontent.com/kellertobias/confluence-toolbelt/main/.docs/header.png" width="400" alt="Confluence Toolbelt Header" />
-      </td>
-      <td>
-        <tech-ts /><br />
-        <tech-node /><br />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/kellertobias/calendar-sync">calendar-sync</a>
-      </td>
-      <td>
-        It is a macOS menu bar app, that uses the calendar framework to sync events between multiple calendars. You can setup multiple syncs, with different filters and time windows.<br />
-        <em>Mostly developed with AI.</em><br />
-        <br /><img src="https://raw.githubusercontent.com/kellertobias/calendar-sync/main/docs/example.png" width="400" alt="Calendar Sync Example" />
-      </td>
-      <td>
-        <tech-swift /><br />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/kellertobias/pcbs-framework">pcbs-framework</a>
-      </td>
-      <td>
-        @tobisk/pcbs is a TypeScript framework that brings the power of modern software development to electronics engineering. It allows you to design circuits using code, ensuring type safety, modularity, and easy version control.<br />
+        @tobisk/pcbs brings modern software-development practices to electronics
+        engineering. Circuits are designed in TypeScript with type safety,
+        modular composition and version control.<br />
         <em>Mostly developed with AI.</em><br />
         <br /><img src="https://raw.githubusercontent.com/kellertobias/pcbs-framework/main/docs/header.png" width="400" alt="PCBS Framework Header" />
       </td>
@@ -98,43 +162,16 @@
         <tech-node /><br />
       </td>
     </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/kellertobias/magic-cueboard">magic-cueboard</a>
-      </td>
-      <td>
-        This tool is used in combination with a MagicQ light control desk to extend the amount of physical buttons on the desk. It communicates via OSC to MagicQ and uses its HTTP API to update the available executors. It also interfaces with a gm1356 based SPL meter to display a little graph of how much the current DJ destroys your ears.<br />
-        <em>Mostly developed with AI.</em><br />
-        <br /><img src="https://raw.githubusercontent.com/kellertobias/magic-cueboard/main/docs/example-render.png" width="400" alt="Magic Cueboard Example" />
-      </td>
-      <td>
-        <tech-ts /><br />
-        <tech-node /><br />
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <a href="https://github.com/kellertobias/rekordbox-to-music-playlists"
-          >Rekordbox to Apple Music</a
-        >
-      </td>
-      <td>
-        A tool for DeeJays working with Rekordbox on the Mac to transfer their
-        Playlists back from Rekordbox to Apple Music. Contains a custom webpack
-        setup to compile typescript to the javascript dialect of AppleScript<br />(Status:
-        Done)<br />Written in 2020, finished in December 2021
-      </td>
-      <td>
-        <type-done /><br />
-        <tech-ts /><br />
-        <tech-as /><br />
-        <tech-webpack /><br />
-        <tech-dj /><br />
-      </td>
-    </tr>
   </tbody>
 </table>
+
+<p>
+  I have moved some earlier tools to different infrastructure or workflows.
+  They remain available for reference.
+</p>
+<p>
+  <a href="./OLDER_SOFTWARE.md">Browse the older software archive →</a>
+</p>
 
 <p>
   I regularly write new software for my own projects, such as tools or
