@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="166" height="20" role="img" aria-label="Handcrafted/ AI-Assisted">
-  <title>Handcrafted/ AI-Assisted</title>
-  <rect width="166" height="20" rx="3" fill="#fbbf24"/>
-  <text x="83" y="14" fill="#111827" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" font-weight="600">Handcrafted/ AI-Assisted</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="34" role="img" aria-label="Handcrafted plus AI Assisted">
+  <title>Handcrafted + AI Assisted</title>
+  <rect width="91" height="34" rx="3" fill="#fbbf24"/>
+  <text x="45.5" y="14" fill="#111827" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="12" font-weight="600">Handcrafted</text>
+  <text x="45.5" y="27" fill="#111827" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="9">+ AI Assisted</text>
 </svg>
